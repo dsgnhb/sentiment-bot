@@ -2,7 +2,7 @@
   "name": "sentiment-bot",
   "version": "1.0.0",
   "description": "This Bot uses Sentiment Analysis to react to Messages written in a specific Discord Channel",
-  "main": "bot.js",
+  "main": "./src/bot.js",
   "scripts": {
     "test": "npm install -g mocha && mocha"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/LukvonStrom/sentiment-bot/issues"
   },
-  "homepage": "https://github.com/LukvonStrom/sentiment-bot#readme"
+  "homepage": "https://github.com/LukvonStrom/sentiment-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ml-sentiment": "^2.0.7"
+  }
 }
