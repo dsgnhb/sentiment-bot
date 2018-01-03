@@ -166,3 +166,4 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node,intellij,intellij+iml
+config.json
